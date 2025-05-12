@@ -1,15 +1,14 @@
 {
-  "name": "fastify-app",
+  "name": "fastify-starter",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["fastify", "node.js", "typescript"],
+  "author": "Mirsoli Mirsultonov<mirrrrrr@yahoo.com>",
   "license": "ISC",
   "description": "",
   "type": "module",
