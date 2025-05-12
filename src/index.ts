@@ -1,7 +1,7 @@
 import Fastify from 'fastify';
 import fastifyMysql from '@fastify/mysql';
-import greetingsController from './controller/greetings-controller.js';
-import booksController from './controller/books-controller.js';
+import greetingsController from './controller/greetings-controller';
+import booksController from './controller/books-controller';
 
 const fastify = Fastify({
     logger: true
